@@ -84,7 +84,7 @@ chmod +x password_updater_gui.sh
     - Führen Sie das Skript mit root-Rechten aus:
 
 ```bash
-sudo ./admin-passwort-update-root-user-gui.sh
+sudo password_updater_gui.sh
 ```
 
 2. Benutzeroberfläche verwenden
@@ -100,7 +100,7 @@ sudo ./admin-passwort-update-root-user-gui.sh
 1. Starten Sie das Skript:
 
 ```bash
-sudo ./admin-passwort-update-root-user-gui.sh
+sudo ./password_updater_gui.sh
 ```
 2. Bestätigen Sie die Fortsetzung:
 3.  Wählen Sie die gewünschte Aktion:
