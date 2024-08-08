@@ -82,7 +82,7 @@ fi
 # Auswahlmenü für die Benutzeraktion
 OPTION=$(whiptail --title "Passworten von Server und Dienste Aktualisieren - Luwey Silva" --menu "Wähle eine Option aus" 18 100 10 \
   "Passwort lokal ändern (SERVER4)" "" \
-  "Passwort auf Remote-Servern ändern (SERVER1, SERVER2, Proxy-guacamole)" "" 3>&1 1>&2 2>&3)
+  "Passwort auf Remote-Servern ändern (SERVER1, SERVER2, Remote-RDP)" "" 3>&1 1>&2 2>&3)
 
 # Überprüfung, ob eine Option gewählt wurde
 if [ -z "$OPTION" ]; then
